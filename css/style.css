@@ -20,8 +20,10 @@ tr:first-child td {
 td:last-child {
 	border-right: none;
 }
-.bottom {
-	border-bottom: none;
+tr:nth-child(7) td:first-child,
+tr:nth-child(8) td:first-child,
+tr:nth-child(9) td:first-child {
+	border-bottom:none;
 }
 .yellow {
 	background-color: yellow;
